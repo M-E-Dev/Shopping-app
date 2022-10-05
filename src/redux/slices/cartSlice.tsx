@@ -3,9 +3,9 @@ import { createSlice, createAsyncThunk, PayloadAction } from "@reduxjs/toolkit";
 import { CState } from "../slices/types";
 import type { Reducer } from '@reduxjs/toolkit'
 
-const categoriesUrl = 'https://upayments-studycase-api.herokuapp.com/api/categories/'
-const productsUrl = 'https://upayments-studycase-api.herokuapp.com/api/products'
-const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im0uZXJvZ2x1LmRldkBnbWFpbC5jb20iLCJnaXRodWIiOiJodHRwczovL2dpdGh1Yi5jb20vTS1FLURldiIsImlhdCI6MTY2NDU3MTI2MiwiZXhwIjoxNjY1MDAzMjYyfQ.kTsgB4dLp6w1nmq9JuEE00xO574H7WEkEzLLNkmQNFw'
+const categoriesUrl = 'https://studycase-api.herokuapp.com/api/categories/'
+const productsUrl = 'https://studycase-api.herokuapp.com/api/products'
+const token = 'expired-token'
 
 const initialState: CState = {
     categories: [],
